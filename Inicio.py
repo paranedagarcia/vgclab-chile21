@@ -1,4 +1,4 @@
-# version  julio 28, 2024
+# version  noviembre 22, 2024
 # update: 2024-07-28
 # version final
 import streamlit as st
@@ -20,17 +20,6 @@ st.set_page_config(
 with open('style/style.css') as f:
     css = f.read()
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
-
-# page_bg_img = '''
-# <style>
-# body {
-# background-image: url("https://vgclabfiles.blob.core.windows.net/public/databox.jpg");
-# background-size: cover;
-# }
-# </style>
-# '''
-
-# st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Set the background image
 background_image = """
