@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+p,
+ol,
+ul,
+dl {
+    margin: 0px 0px 0rem !important;
+    padding: 0px;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+/* PAG 2024-10-29 
+se han actualizado los estilos de la portada y de las tarjetas de métricas
+*/
+h1,
+h2,
+h3,
+p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+p {
+    color: #000;
+    margin: 0px 0px 0rem !important;
+    padding: 0px;
+    font-size: 1em;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Background cover */
+.background-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://vgclabfiles.blob.core.windows.net/public/databox.jpg') no-repeat center center/cover;
+    z-index: -1;
+}
+
+.centered-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centered content container */
+.content {
+    text-align: center;
+    color: #fff;
+    padding: 2em;
+    max-width: 90%;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    /* height: 20vh; */
+}
+
+/* Image inside the content */
+.content img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Responsive font size */
+.content h1 {
+    font-size: 2em;
+    margin: 0 0 10px;
+}
+
+.content p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* ocultas toolbar */
+div[data-testid="stToolbar"] {
+    visibility: hidden;
+    height: 0%;
+    position: fixed;
+}
+
+div[data-testid="stDecoration"] {
+    visibility: hidden;
+    height: 0%;
+    position: fixed;
+}
+
+div[data-testid="stStatusWidget"] {
+    visibility: hidden;
+    height: 0%;
+    position: fixed;
+}
+
+#MainMenu {
+    visibility: hidden;
+    height: 0%;
+}
+
+header {
+    visibility: hidden;
+    height: 0%;
+}
+
+footer {
+    visibility: hidden;
+    height: 0%;
+}
+
+
+/* div principal con top 1rem */
+div.st-emotion-cache-1jicfl2 {
+    padding-top: 1rem !important;
+}
+
+/* #34469c color cuadro parrafo de portada*/
+
+/* metrica card */
+div div[data-testid="stMetric"],
+div[data-testid="metric-container"] {
+    border-left: 0.5rem solid #34469c !important;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+/*Filtros*/
+
+.stMultiSelect .st-az {
+    font-size: 12px;
+}
+
+.stMultiSelect .st-df {
+    height: 21px;
+}
+
+.stMultiSelect .st-dh {
+    margin-bottom: 3px;
+}
+
+.stMultiSelect .st-dg {
+    margin-top: 3px;
+}
+
+
+
+/* FIN JG */
+
+/* cuadro inicial portada fondo azul */
+
+
+div.cuadroportada {
+    width: calc(100%);
+    background-color: #34469c;
+    height: 360px;
+}
+
+div.cuadroportada p {
+    color: white;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+/* fin portada */
+
+.st-emotion-cache-1tgh22k {
+    gap: .6rem !important;
+}
+
+.st-az {
+    /* multiselect */
+    font-size: .85rem !important;
+}
+
+/*
+.st-at {
+    background-color: rgb(21 141 58);
+} */
+
+input {
+    font-size: 1rem !important;
+    font-weight: 400;
+}
+
+.st-emotion-cache-vqd4fc .e1nzilvr5 p {
+    font-size: 12px !important;
+}
+
+.st-emotion-cache-1jicfl2 {
+    width: 100%;
+    padding: 4rem 2rem 4rem !important;
+    min-width: auto;
+    max-width: initial;
+}
+
+.stHeadingContainer {
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+
+.st-emotion-cache-z5fcl4 {
+    width: 100%;
+    padding: 2rem 2rem 2rem !important;
+    min-width: auto;
+    max-width: initial;
+}
+
+/* tabs */
+.st-emotion-cache-vqd4fc p {
+    font-size: 16px !important;
+    /* font-weight: bold;*/
+}
+
+.right {
+    float: right;
+}
+
+.st-af {
+    font-size: 1rem !important;
+}
+
+hr {
+    margin: 1rem 0px !important;
+}
+
+.st-emotion-cache-16idsys p {
+    word-break: break-word;
+    margin-bottom: 0px;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+/* nota: */
+.st-emotion-cache-35qgtp {
+    /* font-family: "Source Sans Pro", sans-serif;*/
+    margin-bottom: 0rem !important;
+}
+
+/* expander: titulo */
+.st-emotion-cache-12l3ez5 p {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+}
+
+/* sidebar */
+.st-emotion-cache-1mi2ry5 {
+    padding: 0 !important;
+}
+
+.st-emotion-cache-16txtl3 {
+    padding: 2.5rem 1.5rem !important;
+}
+
+.st-emotion-cache-6qob1r {
+    background-color: black;
+}
+
+.st-emotion-cache-6qob1r p {
+    color: white;
+}
+
+.st-emotion-cache-6qob1r h3 {
+    color: white;
+}
+
+.stMarkdown a {
+    color: white;
+    text-decoration: none;
+}
+
+/* texto en info */
+.st-emotion-cache-1l23ect {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-bottom: 0rem !important;
+}

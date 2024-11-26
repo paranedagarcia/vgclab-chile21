@@ -80,3 +80,15 @@ def menu_pages():
     #                      label=":bar_chart: IA con Langchain DB")
     st.sidebar.page_link("pages/langchain_data.py",
                          label="Exploratorio con IA")
+    st.sidebar.page_link("pages/basic_data.py",
+                         label="Datos básicos")
+
+
+@st.cache_data
+def menu_basic():
+    # st.sidebar.image("images/vgclab-negro.jpg")
+    st.sidebar.page_link("Inicio.py", label="Inicio")
+    st.sidebar.page_link("pages/basic_data.py", label="Datos básicos")
+    st.sidebar.page_link("pages/basic_eda.py",
+                         label="Análisis exploratorio")
+    st.sidebar.page_link("pages/basic_corr.py", label="Correlaciones")
