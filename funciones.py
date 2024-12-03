@@ -64,20 +64,12 @@ def menu_pages():
                          label="Detenciones por delitos")
     st.sidebar.page_link("pages/Salud_mental.py",
                          label="Salud mental (licencias)")
-    # st.sidebar.page_link("pages/Salud_mental_full.py",
-    #                     label=":bar_chart: Salud mental")
+
     st.sidebar.page_link("pages/Analisis.py",
                          label="Análisis comparativo")
     st.sidebar.page_link("pages/Analisis_par.py",
                          label="Análisis pareado")
-    # st.sidebar.page_link("pages/ia.py",
-    #                     label=":bar_chart: Análisis exploratorio con IA")
-    # st.sidebar.page_link("pages/openai.py",
-    #                      label=":bar_chart: IA con OpenAI")
-    # st.sidebar.page_link("pages/langchain.py",
-    #                      label=":bar_chart: IA con Langchain")
-    # st.sidebar.page_link("pages/langchain_db.py",
-    #                      label=":bar_chart: IA con Langchain DB")
+
     st.sidebar.page_link("pages/langchain_data.py",
                          label="Exploratorio con IA")
     st.sidebar.page_link("pages/basic_data.py",
