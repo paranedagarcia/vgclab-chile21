@@ -43,7 +43,7 @@ def logo():
 
 
 def menu_inicio():
-    st.sidebar.page_link("Inicio.py", label=":house: Inicio")
+    st.sidebar.page_link("app.py", label=":house: Inicio")
 
 
 @st.cache_data
@@ -55,7 +55,7 @@ def convert_df(df):
 @st.cache_data
 def menu_pages():
     st.sidebar.image("images/vgclab-negro.jpg")
-    st.sidebar.page_link("Inicio.py", label="Inicio")
+    st.sidebar.page_link("app.py", label="Inicio")
     st.sidebar.page_link("pages/Conflictos_mapuches.py",
                          label="Violencia etnopolítica")
     st.sidebar.page_link("pages/Conflictos_sociales.py",
@@ -80,14 +80,14 @@ def menu_pages():
     #                      label=":bar_chart: IA con Langchain DB")
     st.sidebar.page_link("pages/langchain_data.py",
                          label="Exploratorio con IA")
-    st.sidebar.page_link("pages/basic_data.py",
-                         label="Datos básicos")
+    # st.sidebar.page_link("pages/basic_data.py",
+    #                     label="Datos básicos")
 
 
 @st.cache_data
 def menu_basic():
     # st.sidebar.image("images/vgclab-negro.jpg")
-    st.sidebar.page_link("Inicio.py", label="Inicio")
+    st.sidebar.page_link("app.py", label="Inicio")
     st.sidebar.page_link("pages/basic_data.py", label="Datos básicos")
     st.sidebar.page_link("pages/basic_eda.py",
                          label="Análisis exploratorio")
